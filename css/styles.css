@@ -1,0 +1,278 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #7d7463;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.logo img {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #f4e0b9;
+  text-decoration: none;
+  position: relative;
+}
+
+nav ul li a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width 0.3s;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+.ispodh {
+  position: relative;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.ispodh-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.ispodh::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Overlay to make text more readable */
+  z-index: 0;
+}
+
+.ispodh-content {
+  position: relative;
+  z-index: 1;
+}
+
+.ispodh h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #722620;
+}
+
+.ispodh p {
+  color: #722620;
+  font-size: 1.5rem;
+}
+
+.linija {
+  width: 80%;
+  height: 2px;
+  background-color: #333;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+section {
+  padding: 2rem;
+}
+
+#odijela h2 {
+  text-align: center;
+  color: #bc9f7d;
+  margin-bottom: 3rem;
+  width: 100%;
+  font-size: 35px;
+}
+
+#odijela {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.odijelo {
+  margin: 1rem;
+  border: 0.5px solid #ddd;
+  padding: 1rem;
+  width: 250px;
+  text-align: left;
+  border-radius: 8px; /* Adjust the border radius as needed */
+}
+
+.odijelo img {
+  max-width: 100%;
+}
+
+.onama {
+  display: flex;
+  justify-content: space-between;
+  padding: 6rem;
+}
+
+.onama-img img {
+  width: 75%;
+  border-radius: 10px; /* Adjust as needed */
+}
+
+.onama-text {
+  width: 45%;
+  background-color: #f3e8dbbc; /* Beige background color */
+  border-radius: 15px; /* Adjust as needed */
+  padding: 75px;
+  margin-top: 20px;
+}
+
+/* Contact Page (Kontakt) */
+
+.contact-box {
+  max-width: 600px;
+  max-height: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-box label {
+  margin-bottom: 10px;
+}
+
+.contact-box input,
+.contact-box textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.contact-box .submit-button {
+  padding: 10px 20px;
+  background-color: #b73e3e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-box .submit-button:hover {
+  background-color: #eb1d36;
+}
+
+/* Suit Page (Odijela) */
+
+.jedno-odijelo {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.odijelo-img img {
+  max-width: 100%;
+}
+
+.odijelo-text {
+  max-width: 400px;
+}
+
+.odijelo-text h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.odijelo-text p {
+  margin-bottom: 10px;
+  margin-top: 10;
+}
+
+.buy-button {
+  display: inline-block;
+  background-color: #b73e3e;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-top: 10;
+}
+
+.buy-button:hover {
+  background-color: #eb1d36;
+}
+
+footer {
+  background-color: #a38f85;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 148px;
+}
+
+.footer-ikone {
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
+  justify-content: space-between; /* Add this to evenly space items */
+}
+
+.ikone {
+  display: flex; /* Ensure the icons are displayed in a row */
+}
+
+.ikone a {
+  display: inline-block;
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+}
+
+.ikone a:hover {
+  color: #b73e3e;
+}
