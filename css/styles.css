@@ -278,7 +278,7 @@ footer {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 768px) { /* Converted max-width to px */
+@media only screen and (max-width: 900px) { /* Converted max-width to px */
   /* Adjustments for smaller screens */
 
   /* Header */
