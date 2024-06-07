@@ -276,3 +276,77 @@ footer {
 .ikone a:hover {
   color: #b73e3e;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+
+  /* Header */
+  header {
+    padding: 1rem;
+  }
+
+  .logo img {
+    height: 30px;
+  }
+
+  nav ul li {
+    margin: 0 0.5rem;
+  }
+
+  /* Home Page */
+  .ispodh h1 {
+    font-size: 2.5rem;
+  }
+
+  .ispodh p {
+    font-size: 1.2rem;
+  }
+
+  /* About Us Page */
+  .onama {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .onama-img img {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 1rem;
+  }
+
+  .onama-text {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 20px;
+  }
+
+  /* Odijela (Suits) Page */
+  .jedno-odijelo {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .odijelo-text {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .odijelo-text h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+
+  .buy-button {
+    margin-top: 1rem;
+  }
+
+  /* Footer */
+  footer {
+    margin-top: 2rem;
+  }
+}
