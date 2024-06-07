@@ -12,11 +12,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 1em 2em; /* Converted padding to em */
 }
 
 .logo img {
-  height: 40px;
+  height: 2.5em; /* Converted height to em */
 }
 
 nav ul {
@@ -27,7 +27,7 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 1rem;
+  margin: 0 1em; /* Converted margin to em */
 }
 
 nav ul li a {
@@ -40,11 +40,11 @@ nav ul li a::after {
   content: "";
   display: block;
   width: 0;
-  height: 2px;
+  height: 0.125em; /* Converted height to em */
   background: white;
   transition: width 0.3s;
   position: absolute;
-  bottom: -5px;
+  bottom: -0.313em; /* Converted bottom to em */
   left: 0;
 }
 
@@ -89,35 +89,35 @@ nav ul li a:hover::after {
 }
 
 .ispodh h1 {
-  font-size: 3rem;
+  font-size: 3em; /* Converted font-size to em */
   margin: 0;
   color: #722620;
 }
 
 .ispodh p {
   color: #722620;
-  font-size: 1.5rem;
+  font-size: 1.5em; /* Converted font-size to em */
 }
 
 .linija {
   width: 80%;
-  height: 2px;
+  height: 0.125em; /* Converted height to em */
   background-color: #333;
   margin: 0 auto;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 2em; /* Converted margin-top to em */
+  margin-bottom: 2em; /* Converted margin-bottom to em */
 }
 
 section {
-  padding: 2rem;
+  padding: 2em; /* Converted padding to em */
 }
 
 #odijela h2 {
   text-align: center;
   color: #bc9f7d;
-  margin-bottom: 3rem;
+  margin-bottom: 3em; /* Converted margin-bottom to em */
   width: 100%;
-  font-size: 35px;
+  font-size: 2.188em; /* Converted font-size to em */
 }
 
 #odijela {
@@ -127,12 +127,12 @@ section {
 }
 
 .odijelo {
-  margin: 1rem;
+  margin: 1em; /* Converted margin to em */
   border: 0.5px solid #ddd;
-  padding: 1rem;
-  width: 250px;
+  padding: 1em; /* Converted padding to em */
+  width: 15.625em; /* Converted width to em */
   text-align: left;
-  border-radius: 8px; /* Adjust the border radius as needed */
+  border-radius: 0.5em; /* Adjusted the border radius */
 }
 
 .odijelo img {
@@ -142,34 +142,34 @@ section {
 .onama {
   display: flex;
   justify-content: space-between;
-  padding: 6rem;
+  padding: 6em; /* Converted padding to em */
 }
 
 .onama-img img {
   width: 75%;
-  border-radius: 10px; /* Adjust as needed */
+  border-radius: 0.625em; /* Adjusted border radius */
 }
 
 .onama-text {
   width: 45%;
   background-color: #f3e8dbbc; /* Beige background color */
-  border-radius: 15px; /* Adjust as needed */
-  padding: 75px;
+  border-radius: 0.938em; /* Adjusted border radius */
+  padding: 4.688em; /* Converted padding to em */
   margin-top: 20px;
 }
 
 /* Contact Page (Kontakt) */
 
 .contact-box {
-  max-width: 600px;
-  max-height: 800px;
+  max-width: 37.5em; /* Converted max-width to em */
+  max-height: 50em; /* Converted max-height to em */
   margin: 0 auto;
-  padding: 20px;
+  padding: 1.25em; /* Converted padding to em */
 }
 
 .contact-box h2 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 1.25em; /* Converted margin-bottom to em */
 }
 
 .contact-box form {
@@ -178,23 +178,23 @@ section {
 }
 
 .contact-box label {
-  margin-bottom: 10px;
+  margin-bottom: 0.625em; /* Converted margin-bottom to em */
 }
 
 .contact-box input,
 .contact-box textarea {
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
+  padding: 0.625em; /* Converted padding to em */
+  margin-bottom: 1.25em; /* Converted margin-bottom to em */
+  border: 0.063em solid #ccc; /* Converted border to em */
+  border-radius: 0.625em; /* Adjusted border radius */
 }
 
 .contact-box .submit-button {
-  padding: 10px 20px;
+  padding: 0.625em 1.25em; /* Converted padding to em */
   background-color: #b73e3e;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 0.313em; /* Adjusted border radius */
   cursor: pointer;
   transition: background-color 0.3s;
 }
@@ -208,9 +208,9 @@ section {
 .jedno-odijelo {
   display: flex;
   justify-content: space-between;
-  max-width: 800px;
+  max-width: 50em; /* Converted max-width to em */
   margin: 0 auto;
-  padding: 50px;
+  padding: 3.125em; /* Converted padding to em */
 }
 
 .odijelo-img img {
@@ -218,29 +218,31 @@ section {
 }
 
 .odijelo-text {
-  max-width: 400px;
+  max-width: 25em; /* Converted max-width to em */
 }
 
 .odijelo-text h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-  margin-top: 100px;
+  font-size: 1.5em; /* Converted font-size to em */
+  margin-bottom: 1.25em; /* Converted margin-bottom to em */
+  margin-top: 6.25em; /* Converted margin-top to em */
 }
 
+/* styles.css */
+
 .odijelo-text p {
-  margin-bottom: 10px;
-  margin-top: 10;
+  margin-bottom: 0.625em; /* Converted margin-bottom to em */
+  margin-top: 0.625em; /* Converted margin-top to em */
 }
 
 .buy-button {
   display: inline-block;
   background-color: #b73e3e;
   color: white;
-  padding: 10px 20px;
+  padding: 0.625em 1.25em; /* Converted padding to em */
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 0.313em; /* Adjusted border radius */
   transition: background-color 0.3s;
-  margin-top: 10;
+  margin-top: 0.625em; /* Converted margin-top to em */
 }
 
 .buy-button:hover {
@@ -251,14 +253,14 @@ footer {
   background-color: #a38f85;
   color: white;
   text-align: center;
-  padding: 1rem 0;
-  margin-top: 148px;
+  padding: 1em 0; /* Converted padding to em */
+  margin-top: 9.25em; /* Converted margin-top to em */
 }
 
 .footer-ikone {
   display: flex;
   align-items: center;
-  padding: 0 25px;
+  padding: 0 1.563em; /* Converted padding to em */
   justify-content: space-between; /* Add this to evenly space items */
 }
 
@@ -269,8 +271,8 @@ footer {
 .ikone a {
   display: inline-block;
   color: white;
-  font-size: 1.5rem;
-  margin: 0 0.5rem;
+  font-size: 1.5em; /* Converted font-size to em */
+  margin: 0 0.5em; /* Converted margin to em */
 }
 
 .ikone a:hover {
@@ -278,75 +280,75 @@ footer {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 48em) { /* Converted max-width to em */
   /* Adjustments for smaller screens */
 
   /* Header */
   header {
-    padding: 1rem;
+    padding: 1em;
   }
 
   .logo img {
-    height: 30px;
+    height: 1.875em; /* Converted height to em */
   }
 
   nav ul li {
-    margin: 0 0.5rem;
+    margin: 0 0.5em; /* Converted margin to em */
   }
 
   /* Home Page */
   .ispodh h1 {
-    font-size: 2.5rem;
+    font-size: 2.5em; /* Converted font-size to em */
   }
 
   .ispodh p {
-    font-size: 1.2rem;
+    font-size: 1.2em; /* Converted font-size to em */
   }
 
   /* About Us Page */
   .onama {
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    padding: 2em;
   }
 
   .onama-img img {
     width: 100%;
-    max-width: 400px;
-    margin-bottom: 1rem;
+    max-width: 25em; /* Converted max-width to em */
+    margin-bottom: 0.625em; /* Converted margin-bottom to em */
   }
 
   .onama-text {
     width: 100%;
-    padding: 1rem;
-    margin-top: 20px;
+    padding: 1em; /* Converted padding to em */
+    margin-top: 1.25em; /* Converted margin-top to em */
   }
 
   /* Odijela (Suits) Page */
   .jedno-odijelo {
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    padding: 2em;
   }
 
   .odijelo-text {
     max-width: 100%;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 0.625em; /* Converted margin-top to em */
   }
 
   .odijelo-text h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 1.25em; /* Converted font-size to em */
+    margin-bottom: 0.625em; /* Converted margin-bottom to em */
     margin-top: 0;
   }
 
   .buy-button {
-    margin-top: 1rem;
+    margin-top: 0.625em; /* Converted margin-top to em */
   }
 
   /* Footer */
   footer {
-    margin-top: 2rem;
+    margin-top: 2em; /* Converted margin-top to em */
   }
 }
